@@ -1,0 +1,42 @@
+*{
+    font-family: "Arial";
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 320px 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-bar p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.side-bar h2{
+    color: red;
+}
+
+#board{
+    border: 2px solid black;
+}
+
+.play-btn{
+    background-color: rgb(244, 213, 61);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    width: 150px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
